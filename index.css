@@ -1,0 +1,86 @@
+body{
+    background-color: rosybrown;
+}
+
+.container{
+    display:flex;
+}
+
+#form-container{
+    height: 200px;
+    margin-right: 300px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: black;
+    margin-bottom: 20px;
+
+}
+
+#div2{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: black;
+
+}
+#Message-text{
+    font-size: 50px;
+}
+
+#updateForm{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: black;
+}
+form{
+    padding: 20px;
+}
+label{
+    padding: 20px;
+}
+input{
+    margin: 10px;
+}
+button:hover{
+    
+    size: 30px;
+    border-radius: 20px;
+    color: white;
+    border-style: solid ;
+    border-color: white;
+    background-color: black;
+}
+button{
+    margin-right: 5px;
+    text-align: center;
+    font-size: 18px;
+    width: 130px;
+    height:50px;
+    border-radius: 20px;
+    color: white;
+    border-style: solid ;
+    border-color: black;
+    background-color: rosybrown;
+}
+
+
+  table {
+    width: 700px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-collapse:collapse; /* This will collapse borders into a single border */
+}
+
+th, td {
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 10px; /* This adds space inside the cells */
+}
