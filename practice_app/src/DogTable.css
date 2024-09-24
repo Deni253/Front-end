@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+tr {
+    background-color: white; 
+}
+
+td, th {
+    text-align: center; 
+    padding: 10px; 
+    background-color: white; 
+}
+
+td img {
+    display: block;
+    margin: 0 auto; 
+}

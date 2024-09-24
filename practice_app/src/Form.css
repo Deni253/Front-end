@@ -1,0 +1,39 @@
+.form{
+    text-align: center;
+    background-color: blanchedalmond;
+    margin: auto 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    margin-bottom: 40px;
+    margin-right: 38%;
+    margin-left: 38%;
+    padding: 20px;
+
+}
+input{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.add-btn{
+  font-size: 20px;
+  border-radius: 20px;
+  width:80px;
+  height: 60px;
+  color: black;
+  background-color: bisque;
+  border-color: brown;
+  border-width: 5px;
+  border-style: solid;
+}
+.add-btn:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    width:80px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+  }

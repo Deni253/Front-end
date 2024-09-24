@@ -1,0 +1,167 @@
+.dog-container{
+    margin-top: 20px ;
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: brown;
+}
+
+#next-dog-btn{
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    margin-right: 20px;
+}
+
+#next-dog-btn:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+  }
+
+.dog-image{
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    border-style: solid;
+    border: brown;
+}
+
+img{
+    margin-top: 20px;
+    border-style: solid;
+    border: brown;
+}
+
+#delete-dog-btn{
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 20px;
+}
+
+#delete-dog-btn:hover{
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 20px;
+}
+
+#update-dog-btn{
+  text-align: center;
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 40px;
+}
+
+#update-dog-btn:hover{
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 40px;
+}
+
+.update-btn{
+  text-align: center;
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.update-btn:hover{
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    
+}
+
+
+.close-btn{
+  text-align: center;
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 40px;
+}
+
+.close-btn:hover{
+  margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 40px;
+}
+#tipke{
+  background-image: url("https://img.freepik.com/free-vector/paw-prints-pattern-design_23-2151099808.jpg");
+  padding: 20px;
+}
