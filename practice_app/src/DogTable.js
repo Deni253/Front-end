@@ -19,6 +19,7 @@ function DogTable({ dogs, setDogs }) {
       .then(response => {
         console.log(response.data);
         setDogs(prevDogs => prevDogs.filter(dog => dog.id !== dogId));
+        alert("Dog deleted!");
       })
       .catch(error => {
         console.error("There was an error deleting the dog:", error);

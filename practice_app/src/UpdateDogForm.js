@@ -45,6 +45,7 @@ function UpdateDogForm() {
     axios.put(`https://localhost:7084/Dog/update/${id}`, { ...updatedDog, id: id })
       .then((response) => {
         console.log("Dog updated successfully:", response.data);
+        alert("Dog updated successfully");
         navigate('/dogs'); 
       })
       .catch(error => {

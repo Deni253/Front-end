@@ -23,8 +23,8 @@ const Form = ({ addDog }) => {
     };
 
     delete dogToSubmit.imgSource;  
-
-    addDog(dogToSubmit);  
+    addDog(dogToSubmit); 
+    alert("New dog added");
   };
 
   
