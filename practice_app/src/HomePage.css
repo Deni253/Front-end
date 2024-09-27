@@ -1,0 +1,98 @@
+h1{
+    display: block;
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/paw-prints-pattern-design_23-2151099808.jpg");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.uvod-tipka{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 150px;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+}
+
+  .uvod-tipka:hover{
+      font-size: 20px;
+      border-radius: 20px;
+      width: 150px;
+      height: 80px;
+      color: black;
+      background-color: white;
+      border-color: black;
+      border-width: 5px;
+      border-style: solid;
+    }
+
+    nav {
+        margin-bottom: 20px;
+        background-color: #ff6600; 
+        padding: 10px 0;
+        font-family: Arial, sans-serif;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        margin: 0 15px; 
+    }
+    
+    li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+        border-radius: 5px;
+    }
+    
+    li a:hover {
+        background-color: #ff944d; /* Lighter orange on hover */
+        color: #fff;
+    }
+    
+    /* Active or current page link */
+    li a.active {
+        background-color: #e65c00; /* Darker orange for active link */
+    }
+    
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        li {
+            margin: 10px 0;
+        }
+    }
